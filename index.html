@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/lumina-logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lumina | Next-Generation Digital Product Studio</title>
+    <meta name="description" content="Lumina is an award-winning digital product studio crafting high-converting web applications, bespoke design systems, and hyper-scalable software experiences." />
+    <meta name="keywords" content="digital studio, SaaS development, UI/UX design, React, front-end engineering, scalable web apps" />
+    
+    <!-- Open Graph / Social Meta -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lumina-studio.vercel.app/" />
+    <meta property="og:title" content="Lumina | Next-Generation Digital Product Studio" />
+    <meta property="og:description" content="Award-winning digital studio engineering high-impact digital experiences and SaaS products." />
+    <meta property="og:image" content="/og-preview.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://lumina-studio.vercel.app/" />
+    <meta property="twitter:title" content="Lumina | Next-Generation Digital Product Studio" />
+    <meta property="twitter:description" content="Award-winning digital studio engineering high-impact digital experiences." />
+    <meta property="twitter:image" content="/og-preview.png" />
+
+    <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Anti-FOUC Theme Initialization Script -->
+    <script>
+      (function() {
+        try {
+          var savedTheme = localStorage.getItem('lumina_theme');
+          var supportDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (savedTheme === 'dark' || (!savedTheme && supportDark)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-lumina-50 text-slate-900 dark:bg-dark-bg dark:text-slate-100 antialiased selection:bg-lumina-500 selection:text-white transition-colors duration-300 overflow-x-hidden">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
