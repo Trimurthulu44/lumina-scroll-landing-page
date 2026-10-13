@@ -3,7 +3,7 @@
 ![Lumina Hero Banner](docs/screenshots/hero-desktop.png)
 
 > **Live Demo:** [https://lumina-studio.vercel.app/](https://lumina-studio.vercel.app/) *(Placeholder)*  
-> **Repository:** [https://github.com/your-username/lumina-studio](https://github.com/your-username/lumina-studio) *(Placeholder)*
+> **Repository:** [https://github.com/Trimurthulu44/lumina-scroll-landing-page](https://github.com/Trimurthulu44/lumina-scroll-landing-page)
 
 Lumina is a production-ready, scroll-orchestrated landing page designed for a high-end digital product studio & SaaS venture. Engineered with **React 18**, **Tailwind CSS v3.4**, **Framer Motion**, and **Lenis Smooth Scroll**, Lumina pairs bold typography and reactive glassmorphism with hardware-accelerated animations and strict accessibility standards.
 

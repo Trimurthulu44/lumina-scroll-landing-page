@@ -13,6 +13,6 @@ React 18 · Tailwind CSS v3.4 · Framer Motion · Lenis · Vite · lucide-react
 
 Check out the code and live demo:
 🔗 Live Demo: https://lumina-studio.vercel.app/
-💻 GitHub Repo: https://github.com/your-username/lumina-studio
+💻 GitHub Repo: https://github.com/Trimurthulu44/lumina-scroll-landing-page
 
 #React #TailwindCSS #FramerMotion #WebDevelopment #Frontend #JavaScript #UIUX #WebDesign
